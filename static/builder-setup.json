@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": "134",
+      "name": "nagaraj",
+      "password": "xyz",
+      "projects": {
+        "1234": {
+          "id": "1234",
+          "name": "test project",
+          "environments": {
+            "1234": {
+              "id": "1234",
+              "name": "dev",
+              "sh": [
+                "echo 'DEV: Hello world'"
+              ]
+            },
+            "123334": {
+              "name": "staging",
+              "id": "123334",
+              "sh": [
+                "echo 'STAGING: Hello world'"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}
